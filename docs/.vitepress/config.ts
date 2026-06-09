@@ -5,7 +5,7 @@ export default withMermaid(defineConfig({
   title: 'Ruslan Kokoev CV',
   description: 'Ruslan Kokoev CV',
   base: '/cv/',
-
+  cleanUrls: true,
   mermaid: {
     flowchart: {
       useMaxWidth: false,
@@ -24,7 +24,10 @@ export default withMermaid(defineConfig({
   ],
 
   themeConfig: {
-    nav: [],
+    nav: [
+      { text: 'English', link: '/' },
+      { text: 'Русский', link: '/ru' },
+    ],
     sidebar: {},
     socialLinks: [
       {icon: 'github', link: 'https://github.com/thumbrise'},
