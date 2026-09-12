@@ -1267,12 +1267,25 @@ Java-инженеры опирались на полировавшийся с 20
 Полностью готовый к бою и использующийся несколькими людьми инструмент. Один из простых, но полезных.
 `Describe from and apply to` - очень мощная концепция.
 
+### Личный бренд
+
+В процессе разработки open source, обнаружил потребность в частом глубоком размышлении и выражении личного мнения о различных аспектах, культуре, истории и развитии современного программирования. 
+Активно начал использовать github-pages для фиксации текстовых материалов любого рода. 
+Начал вести блог thumbrise в Telegram и LinkedIn.
+
+<details>
+<summary>LinkedIn</summary>
+К сожалению, аккаунт ушёл в sign-in-block спустя несколько недель ведения блога, восстановление невозможно по текущим политическим причинам.
+</details>
+
+Начал формировать экосистемный портал open source. Создал VitePress документацию, навигацию, таблицу с кратким ADR. Настроил базовое SEO и индексацией через яндекс-вебмастер и google search console.
+
 ## TODO
 
-- TG, линкедин, github-pages блог thumbrise + экосистемный портал.
 - https://github.com/thumbrise/demo - Demonstrative project with academic fundamentals and examples of apps. СУБД с нуля на голанг. Примитивные типы данных с ручным мемори менеджментом. Хайлоад сервис комментариев с redis-streams + golang. Для всего реализовано plugin-system.
 - https://github.com/thumbrise/otel-template-basic - Репозиторий наблюдаемости для развертывания в одну команду. Полная конфигурируемость + zero configuration. OTLP + прометеус коллектор. Full observability, only exposed OTLP and prometheus remote write. UI uptrace а впоследствии HyperDX.
 - https://github.com/thumbrise/commitlint-scope - Linter that checks if declared commit scopes match the changed files.
 - https://github.com/thumbrise/op - Anything-agnostic operation protocol. For operations-driven future. Широчайшее и глубочайшее исследование, как цель жизни.
 - https://github.com/thumbrise/gcce - Golang Code Capability Emitter
 - https://github.com/thumbrise/pipass - Compile-time type-safe pipeline pass wrappers generator for Go
+- Собеседование в UZUM на senior golang developer. Провал на финальном этапе по причине отсутствия четкого плана решения кризиса в рамках менеджмента
